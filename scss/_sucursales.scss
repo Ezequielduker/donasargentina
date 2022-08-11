@@ -1,0 +1,95 @@
+
+/* SUCURSALES */
+/* SUCURSALES */
+/* SUCURSALES */
+
+
+
+.sucursales {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ac9595;
+    height: 633px;
+    align-items: center;
+    background-image: url(../imagenes/img10.jpg);
+}
+
+.palermo {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(231, 119, 60);
+    font-size: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.belgrano {
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(231, 119, 60);
+    font-size: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+
+@media screen and (max-width:760px) {
+    .header {
+
+        flex-direction: column-reverse;
+    }
+
+    .header-logo {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .header-contact {
+        display: none;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    /* NAV */
+
+    .nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    /* recetas */
+
+    .receta-card {
+        width: 100%;
+    }
+
+    /* texto */
+
+    .texto {
+        height: 10%;
+    }
+
+
+
+    .main {
+        max-height: 300px;
+    }
+
+    .menu {
+        padding: 15px;
+        margin-left: 10px;
+    }
+
+    /* sucursales */
+    /* sucursales */
+    /* sucursales */
+    .sucursales {
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+}

@@ -1,75 +1,10 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-body {
+* {
   margin: 0;
-  /* background-color: #E8E8E8; */ }
+  padding: 0; }
 
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-.social-media {
-  display: flex;
-  justify-content: space-between;
-  width: 12%; }
-
-.social-media i {
-  font-size: 20px;
-  transition: color 0.25s; }
-
-/* .social-media i :hover{
-color: #000;
-} */
-.bi-instagram:hover {
-  color: #c13584; }
-
-.bi-whatsapp {
-  font-size: 40px; }
-
-.bi-whatsapp:hover {
-  color: #1ebea5; }
-
-.header-logo {
-  width: 25%;
-  text-align: center; }
-
-.header-logo h1 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-weight: 300;
-  font-size: 16px; }
-
-.header-contact a {
-  text-decoration: none;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: color 0.25s; }
-
-.header-contact a:hover {
-  color: #000; }
-
-.logo {
-  width: 50%;
-  background-color: #E8E8E8; }
-
-.nav ul {
-  display: flex;
-  text-align: center;
-  margin-top: 30px; }
-
-.nav {
-  justify-content: center; }
-
-.nav a {
-  text-decoration: none;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: color 0.25s;
-  color: black; }
-
-a {
-  text-decoration: none;
-  color: black; }
+body {
+  margin: 0; }
 
 /* carrusel */
 .carousel-inner {
@@ -88,17 +23,15 @@ a {
 
 /* cards */
 .recetas-section {
-  /* background-color: #f1e2e2; */
   background-color: #FFBD35;
   padding: 40px; }
-
-.recetas-section h2 {
-  font-family: da;
-  font-weight: normal;
-  font-size: 35px;
-  text-align: center;
-  padding: 60px 0;
-  margin: 0; }
+  .recetas-section h2 {
+    font-family: da;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0; }
 
 .recetas-container {
   display: flex;
@@ -146,9 +79,8 @@ a {
   display: flex;
   flex-direction: column;
   padding: 60px; }
-
-.footer-logo {
-  justify-content: center; }
+  .footer-logo {
+    justify-content: center; }
 
 .logo-footer {
   width: 10%; }
@@ -158,35 +90,90 @@ a {
   justify-content: space-evenly;
   width: 100%;
   padding: 15px; }
-
-.social-footer i {
-  color: #3d4547;
-  font-size: 20px; }
-
-.footer p {
-  padding: 15px; }
-
-.footer a {
-  padding: 15px;
-  color: #000;
-  font-size: 20px;
-  letter-spacing: 2px; }
+  .social-footer i {
+    color: #3d4547;
+    font-size: 20px; }
+  .social-footer p {
+    padding: 15px; }
+  .social-footer a {
+    padding: 15px;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 2px; }
 
 .footer-agregado {
   height: 50px;
   padding: 10px 0;
   /* background-color: #FFB562; */ }
 
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .header-logo h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 16px; }
+  .header-contact a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: color 0.25s; }
+  .header-contact a:hover {
+    color: #000; }
+  .header-logo {
+    width: 25%;
+    text-align: center; }
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 12%; }
+  .social-media i {
+    font-size: 20px;
+    transition: color 0.25s; }
+
+.bi-instagram:hover {
+  color: #c13584; }
+
+.bi-whatsapp {
+  font-size: 40px; }
+
+.bi-whatsapp:hover {
+  color: #1ebea5; }
+
+.logo {
+  width: 50%;
+  background-color: #E8E8E8; }
+
+.nav ul {
+  display: flex;
+  text-align: center;
+  margin-top: 30px; }
+  .nav ul a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: color 0.25s;
+    color: black; }
+
+.nav {
+  justify-content: center; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
 /* PRODUCTOS */
 /* **************************************************************************************************************************************/
 /* ********************************************************** PRODUCTOS ****************************************************************************/
-.donas-indispensables p {
-  margin: 30px 80px; }
-
 .donas-indispensables {
   text-align: center;
   background-color: #FFBD35;
   padding-top: 50px; }
+  .donas-indispensables p {
+    margin: 30px 80px; }
 
 .galeria-card {
   display: flex;
@@ -221,7 +208,7 @@ a {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; }
 
-/* Rotate */
+/*este es un efecto que probe pero aun no decido si se queda/ Rotate */
 /* .hover06 figure img {
 	-webkit-transform: rotate(15deg) scale(1.4);
 	transform: rotate(15deg) scale(1.4);
@@ -235,17 +222,13 @@ a {
 /* SUCURSALES */
 /* SUCURSALES */
 /* SUCURSALES */
-* {
-  margin: 0;
-  padding: 0; }
-
 .sucursales {
   display: flex;
   justify-content: space-around;
   background-color: #ac9595;
   height: 633px;
   align-items: center;
-  background-image: url(./imagenes/img10.jpg); }
+  background-image: url(../imagenes/img10.jpg); }
 
 .palermo {
   padding: 10px;

@@ -1,0 +1,85 @@
+// menú
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &-logo h1 {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    &-contact a {
+        text-decoration: none;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        transition: color 0.25s;
+    }
+
+    &-contact a:hover {
+        color: #000;
+    }
+
+    &-logo {
+        width: 25%;
+        text-align: center;
+    }
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+
+    i {
+        font-size: 20px;
+        transition: color 0.25s;
+    }
+}
+
+
+.bi-instagram:hover {
+    color: #c13584;
+}
+
+.bi-whatsapp {
+    font-size: 40px;
+}
+
+.bi-whatsapp:hover {
+    color: #1ebea5;
+}
+
+
+.logo {
+    width: 50%;
+    background-color: #E8E8E8;
+}
+
+.nav ul {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+
+    a {
+        text-decoration: none;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        transition: color 0.25s;
+        color: black;
+    }
+
+}
+
+.nav {
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
