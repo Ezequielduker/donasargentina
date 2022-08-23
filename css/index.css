@@ -8,35 +8,38 @@ body {
 
 /* carrusel */
 .carousel-inner {
-  height: 600px;
-  padding: 30px 20px; }
+  height: 600px; }
 
 /* texto-medio */
+/* texto-medio */
 .texto p {
-  font-family: 'Mukta', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
   font-size: 30px;
   font-weight: 600; }
 
 .texto {
   text-align: center;
-  padding: 100px; }
-
-/* cards */
-.recetas-section {
-  background-color: #FFBD35;
   padding: 40px; }
-  .recetas-section h2 {
-    font-family: da;
-    font-weight: normal;
-    font-size: 35px;
-    text-align: center;
-    padding: 60px 0;
-    margin: 0; }
+
+.texto-centro {
+  font-family: 'Carter One', cursive;
+  margin-bottom: 20px; }
+
+.btn {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.recetas-section {
+  background-color: var(--color_tarjetas);
+  padding: 40px; }
 
 .recetas-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+
+h2 {
+  font-family: 'Carter One', cursive; }
 
 .receta-card {
   margin: 15px;
@@ -165,15 +168,17 @@ a {
   text-decoration: none;
   color: black; }
 
-/* PRODUCTOS */
 /* **************************************************************************************************************************************/
 /* ********************************************************** PRODUCTOS ****************************************************************************/
 .donas-indispensables {
   text-align: center;
-  background-color: #FFBD35;
+  background-color: var(--color_tarjetas);
   padding-top: 50px; }
   .donas-indispensables p {
-    margin: 30px 80px; }
+    margin: 30px 80px;
+    font-family: 'Signika Negative', sans-serif; }
+  .donas-indispensables h2 {
+    font-family: 'Carter One', cursive; }
 
 .galeria-card {
   display: flex;
@@ -230,19 +235,17 @@ a {
   align-items: center;
   background-image: url(../imagenes/img10.jpg); }
 
-.palermo {
+.sucursales_Palermo_Belgrano, .palermo, .belgrano {
   padding: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #e7773c;
   font-size: 30px;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; }
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  color: #e7773c; }
+
+.palermo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .belgrano {
-  padding: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #e7773c;
-  font-size: 30px;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; }
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 @media screen and (max-width: 760px) {
   .header {
@@ -277,3 +280,55 @@ a {
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px; } }
+
+/* FORMULARIO, contacto*/
+.formulario {
+  background-image: url(../imagenes/img4.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace; }
+
+form {
+  width: 450px;
+  min-height: 600px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 7px; }
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+#botton {
+  background: #31384a;
+  padding: 20px; }
+
+.boton:hover {
+  cursor: pointer;
+  color: red; }
+
+.texto_historia {
+  display: flex; }
+
+:root {
+  --color_tarjetas: #f5c25e; }

@@ -17,38 +17,108 @@ body {
 .carousel-inner {
 
     height: 600px;
-    padding: 30px 20px;
+    // padding: 30px 20px;
 }
 
 /* texto-medio */
+/* texto-medio */
 
 .texto p {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 30px;
     font-weight: 600;
-
 }
 
 .texto {
     text-align: center;
-    padding: 100px;
+    padding: 40px;
+    // background-color: rgb(228, 135, 135);
+    
+
+}
+
+.texto-centro {
+    font-family: 'Carter One', cursive;
+    margin-bottom: 20px;
+    // margin-top: 100px;
+
+}
+
+// boton contactanos
+// boton contactanos
+
+// bg_color espera un color para el fondo del boton
+// tamanio: espera un tamaño del boton: posibles valores : sm, md
+
+
+
+// .btn {
+//     position: relative;
+//     display: block;
+//     height: 77px;
+//     width: 300px;
+//     border-radius: 4px;
+//     text-transform: uppercase;
+//     background-color: transparent;
+//     color: black;
+//     font-size: 18px;
+//     overflow: hidden;
+//     transition: all 500ms ease;
+//     border: 2px solid #20e2d7;
+//     margin-bottom: 40px;
+//     z-index: 0;
+//     font-weight: 700px;
+
+
+// @mixin estilo_btn($bg_color , $color , $tamanio){
+//    background-color: $bg_color ;
+//    color: $color ;
+//    border-radius: 10px;
+//    text-decoration: none;
+//    text-align: center;
+
+
+//    @if tamanio == "sm"{
+//     width: 40px;
+//     height: 50px;
+// }
+
+// @else if $tamanio == "md"{
+//     width: 100px;
+//     height: 70px;
+// }
+// }
+
+// .btn__contactanos{
+//     @include estilo_btn(blue, white , "md" )
+// }
+
+// tamanio_font espera diferentes tamaños  de letras para el boton
+// tamanio: espera un tamaño del boton: posibles valores : sm, md
+
+@mixin estilo_btn($tamanio_font , $tamanio ) {
+
+    font-size: $tamanio_font;
+    text-transform: uppercase;
+
+
+    @if tamanio=="md" {
+        height: 77px;
+        width: 300px;
+
+    }
+}
+
+.btn {
+    @include estilo_btn(30px, "md")
 }
 
 
-/* cards */
+// cards
 
 .recetas-section {
-    background-color: #FFBD35;
+    background-color: var(--color_tarjetas);
     padding: 40px;
-
-    h2 {
-        font-family: da;
-        font-weight: normal;
-        font-size: 35px;
-        text-align: center;
-        padding: 60px 0;
-        margin: 0;
-    }
 
 }
 
@@ -56,7 +126,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
 
+h2 {
+    font-family: 'Carter One', cursive;
 }
 
 .receta-card {
@@ -151,3 +224,5 @@ body {
     padding: 10px 0;
     /* background-color: #FFB562; */
 }
+
+@mixin name() {}

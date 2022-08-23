@@ -1,16 +1,17 @@
-/* PRODUCTOS */
-
 /* **************************************************************************************************************************************/
 /* ********************************************************** PRODUCTOS ****************************************************************************/
 
-
 .donas-indispensables {
     text-align: center;
-    background-color: #FFBD35;
+    background-color: var(--color_tarjetas);
     padding-top: 50px;
-
+    
     p {
         margin: 30px 80px;
+        font-family: 'Signika Negative', sans-serif;
+    }
+    h2{
+        font-family: 'Carter One', cursive;
     }
 }
 
