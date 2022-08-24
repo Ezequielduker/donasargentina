@@ -6,13 +6,13 @@
     padding: 0;
 }
 
-// sucursales
-
 body {
     margin: 0;
 }
 
 /* carrusel */
+
+
 
 .carousel-inner {
 
@@ -32,16 +32,11 @@ body {
 .texto {
     text-align: center;
     padding: 40px;
-    // background-color: rgb(228, 135, 135);
-    
-
 }
 
 .texto-centro {
-    font-family: 'Carter One', cursive;
+    font-family: var(--tipografia_titulos);
     margin-bottom: 20px;
-    // margin-top: 100px;
-
 }
 
 // boton contactanos
@@ -93,6 +88,9 @@ body {
 //     @include estilo_btn(blue, white , "md" )
 // }
 
+
+
+
 // tamanio_font espera diferentes tamaños  de letras para el boton
 // tamanio: espera un tamaño del boton: posibles valores : sm, md
 
@@ -105,7 +103,6 @@ body {
     @if tamanio=="md" {
         height: 77px;
         width: 300px;
-
     }
 }
 
@@ -113,13 +110,11 @@ body {
     @include estilo_btn(30px, "md")
 }
 
-
 // cards
 
 .recetas-section {
     background-color: var(--color_tarjetas);
     padding: 40px;
-
 }
 
 .recetas-container {
@@ -129,7 +124,7 @@ body {
 }
 
 h2 {
-    font-family: 'Carter One', cursive;
+    font-family: var(--tipografia_titulos);
 }
 
 .receta-card {
@@ -142,7 +137,6 @@ h2 {
     border-radius: 15px;
     box-shadow: 2px 2px 4px rgba(182, 182, 182, 1.5);
     transition: transform 0.5s;
-
 }
 
 .receta-card:hover {
@@ -188,10 +182,8 @@ h2 {
 
 }
 
-
 .logo-footer {
     width: 10%;
-
 }
 
 .social-footer {
@@ -218,11 +210,8 @@ h2 {
     }
 }
 
-
 .footer-agregado {
     height: 50px;
     padding: 10px 0;
     /* background-color: #FFB562; */
 }
-
-@mixin name() {}

@@ -8,10 +8,10 @@
     
     p {
         margin: 30px 80px;
-        font-family: 'Signika Negative', sans-serif;
+        // font-family: var(--tipografia_titulos);
     }
     h2{
-        font-family: 'Carter One', cursive;
+        font-family: var(--tipografia_titulos);
     }
 }
 

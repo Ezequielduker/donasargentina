@@ -22,7 +22,7 @@ body {
   padding: 40px; }
 
 .texto-centro {
-  font-family: 'Carter One', cursive;
+  font-family: var(--tipografia_titulos);
   margin-bottom: 20px; }
 
 .btn {
@@ -39,7 +39,7 @@ body {
   justify-content: center; }
 
 h2 {
-  font-family: 'Carter One', cursive; }
+  font-family: var(--tipografia_titulos); }
 
 .receta-card {
   margin: 15px;
@@ -175,10 +175,9 @@ a {
   background-color: var(--color_tarjetas);
   padding-top: 50px; }
   .donas-indispensables p {
-    margin: 30px 80px;
-    font-family: 'Signika Negative', sans-serif; }
+    margin: 30px 80px; }
   .donas-indispensables h2 {
-    font-family: 'Carter One', cursive; }
+    font-family: var(--tipografia_titulos); }
 
 .galeria-card {
   display: flex;
@@ -327,8 +326,6 @@ textarea {
   cursor: pointer;
   color: red; }
 
-.texto_historia {
-  display: flex; }
-
 :root {
-  --color_tarjetas: #f5c25e; }
+  --color_tarjetas: #f5c25e;
+  --tipografia_titulos:'Carter One', cursive; }
