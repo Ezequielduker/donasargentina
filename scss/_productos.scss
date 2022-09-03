@@ -5,13 +5,16 @@
     text-align: center;
     background-color: var(--color_tarjetas);
     padding-top: 50px;
-    
+
     p {
         margin: 30px 80px;
-        font-family: var(--tipografia_cards);
+        font-size: 30px;
+        font-family: var(--tipografia_cuerpo);
     }
-    h2{
-        font-family: var(--tipografia_cards);
+
+    .titulo_tarjetados {
+        font-family: var(--tipografia_titulos);
+        color: var(--color_tarjetas_titulos);
     }
 }
 
@@ -39,21 +42,33 @@
     width: 315px;
 }
 
- .galeria-donas:hover {
+.galeria-donas:hover {
     transform: scale(1.04);
-} 
+}
 
 .img-recetas-container {
 
     border-radius: 5px;
-     -webkit-filter: blur(0);
-     filter: blur(0);
- }
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
 
- .img-recetas-container:hover {
-     -webkit-filter: blur(3px);
-     filter: blur(3px);
-     -webkit-transition: .3s ease-in-out;
-     transition: .3s ease-in-out;
- }
+.img-recetas-container:hover {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 
+.contactarnos {
+    text-align: center;
+}
+
+.contactarnos_productos {
+    margin-top: 50px;
+    font-family: var(--tipografia_titulos);
+}
+
+.texto {
+    font-family: var(-tipografia_cuerpo)
+}

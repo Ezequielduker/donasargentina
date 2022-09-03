@@ -4,7 +4,7 @@
 <head>
     <meta name="description" content="Donas Argetinas. somos una tienda de donas dedicadas a realizar
     productos horneados. estamos en Palermo y Belgrano, contactanos al numero.">
-    <meta name="keywords"content="donas, tienda , horneadas, Belgrano, Palermo">
+    <meta name="keywords" content="donas, tienda , horneadas, Belgrano, Palermo">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,9 +25,9 @@
             <a href>
                 <i class="bi bi-instagram"></i>
             </a>
-            <a href>
+            <!-- <a href>
                 <i class="bi bi-whatsapp"></i>
-            </a>
+            </a> -->
 
             <a href>
                 <i class="bi bi-twitter"></i>
@@ -35,13 +35,15 @@
 
         </div>
         <div class="header-logo">
-            <img class="logo" src="../panaderia.png" alt="">
+            <img class="logo" src="../imagenes/logo.png" alt="">
             <h1>Donas Argentina</h1>
 
         </div>
 
         <div class="header-contact">
-            <a href="">¡Contactanos!</a>
+            <a href="./html/contacto.html" button class="button-48" role="button"><span
+                    class="text">¡Contactanos!</span></button></a>
+            <i class="bi bi-bell"></i>
 
         </div>
 
@@ -51,8 +53,7 @@
     <nav class="nav">
         <ul>
             <a href="../index.html" button class="button-48" role="button"><span class="text">Inicio</span></button></a>
-            <a href="./productos.html" button class="button-48" role="button"><span
-                    class="text">productos</button></a>
+            <a href="./productos.html" button class="button-48" role="button"><span class="text">productos</button></a>
             <a href="./Historia.html" button class="button-48" role="button"><span
                     class="text">Historia</span></button></a>
             <a href="./sucursales.html" button class="button-48" role="button"><span
@@ -63,33 +64,42 @@
 
     </nav>
 
-    
+
     <main class="sucursales">
-        <!-- <h1 class="visita">Visita nuestras distintas sucursales en CABA</h1> -->
+        <h1>Visita nuestras distintas sucursales en CABA <i class="bi bi-geo-alt"></i> </h1>
+              
 
 
-        <div>
-            <h3 class="palermo"> Palermo</h3>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.601960675217!2d-58.43264808477067!3d-34.58893688046334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7542a48f87%3A0xc94c82d854ee1c65!2sSerrano%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657679313541!5m2!1ses-419!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div>
-            <h3 class="belgrano">Belgrano</h3>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26287.406677040963!2d-58.468295619132704!3d-34.55543315585145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1657679740002!5m2!1ses-419!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr class="hr--small--sucursales">
+
+        <div class="sucursales-container">
+            <div class="sucursal">
+                <h3 class="sucursal-title"> Palermo</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.601960675217!2d-58.43264808477067!3d-34.58893688046334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7542a48f87%3A0xc94c82d854ee1c65!2sSerrano%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657679313541!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+            <div class="sucursales">
+                <h3 class="sucursal-title">Belgrano</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26287.406677040963!2d-58.468295619132704!3d-34.55543315585145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1657679740002!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
 
     </main>
 
+    <hr class="hr--small">
+
     <footer class="footer">
 
         <div class="footer-logo">
-            <a href> <img class="logo-footer" src="../panaderia.png" alt=""></a>
-            <!-- <h1>Donas Argentina</h1> -->
+            <a href> <img class="logo-footer" src="../imagenes/logo.png" alt="logo de dona"></a>
+
         </div>
 
         <div class="social-footer">
@@ -97,22 +107,15 @@
             <a href>
                 <i class="bi bi-instagram"></i>
             </a>
-            <a href>
+            <!-- <a href>
                 <i class="bi bi-whatsapp"></i>
-            </a>
+            </a> -->
 
             <a href>
                 <i class="bi bi-twitter"></i>
             </a>
 
         </div>
-
-        <!-- <div class="footer-agregado">
-            <i class="bi bi-github"> </i>
-            <a href="https://github.com/Ezequielduker/donasargentina.git"></a>
-
-        </div> -->
-
 
     </footer>
 

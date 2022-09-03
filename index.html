@@ -30,12 +30,14 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
     <!-- fuente titulos card -->
 
-    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Patrick+Hand&display=swap"
-        rel="stylesheet">
+    <!-- titulos2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spinnaker&display=swap" rel="stylesheet">
 
 
     <title>Donas Argentinas</title>
@@ -47,9 +49,9 @@
             <a href>
                 <i class="bi bi-instagram"></i>
             </a>
-            <a href>
+            <!-- <a href>
                 <i class="bi bi-whatsapp"></i>
-            </a>
+            </a> -->
 
             <a href>
                 <i class="bi bi-twitter"></i>
@@ -57,13 +59,14 @@
         </div>
 
         <div class="header-logo">
-            <img class="logo" src="panaderia.png" alt="">
+            <img class="logo" src="./imagenes/logo.png" alt="">
 
             <h1>Donas Argentina</h1>
         </div>
 
         <div class="header-contact">
-            <a href="">¡Contactanos!</a>
+            <a href="./html/contacto.html" button class="button-48" role="button"><span class="text">¡Contactanos!</span></button></a>
+            <i class="bi bi-bell"></i>
 
         </div>
 
@@ -116,7 +119,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Donas Argentinas</h5>
                         <p>¡Somos las primeras Donas horneadas!</p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -133,34 +136,32 @@
         </div>
     </main>
 
-   
+
     <!-- texto del medio -->
     <!-- texto del medio -->
 
-    <div class="shadow-lg p-3 mb-5 bg-body rounded">
-
-        <div class="texto" shadow-lg p-3 mb-5 bg-body rounded>
-            <div>
-                <h1 class="texto-centro">Donas Argentina</h1>
-                <P>Estas donas nacen de una idea interesante: Hacer la vida menos pesada con nuestros dulces.
-                    Somos un Equipo lleno de energia con buena vibra!</P>
-            </div>
-
-            <div>
-                <a href="./html/contacto.html" button type="button"
-                    class="btn btn-outline-warning">Contactanos!</button></a>
-            </div>
+    <div class="texto" shadow-lg p-3 mb-5 bg-body rounded>
+        <div>
+            <h1 class="texto-centro">Donas Argentina</h1>
+            <P>Estas donas nacen de una idea interesante: Hacer la vida menos pesada con nuestros dulces.
+                Somos un Equipo lleno de energia con buena vibra!</P>
         </div>
 
+        <div>
+            <a href="./html/contacto.html" button type="button"
+                class="btn btn-outline-success">¡Contactanos!</button></a>
+        </div>
+
+        <hr class="hr--small">
     </div>
 
-
+    </div>
 
     <!-- Productos -->
     <!-- Productos -->
 
     <section class="recetas-section">
-        <h2>Donas Destacadas</h2>
+        <h2 class="titulo_tarjetauno">Nuestras Donas:</h2>
         <div class="recetas-container">
             <div class="receta-card">
                 <img class="img-recetas-section" src="./imagenes/imgcard4.jpg" alt="">
@@ -175,15 +176,67 @@
                 <p>Donas de Banana</p>
             </div>
 
+            <div class="receta-card">
+                <img class="img-recetas-section" src="./imagenes/imgcard1.jpg" alt="">
+                <p>Donas bañadas</p>
+            </div>
+            <div class="receta-card">
+                <img class="img-recetas-section" src="./imagenes/imgcard5.jpg" alt="">
+                <p>Donas cubiertas</p>
+            </div>
+            <div class="receta-card">
+                <img class="img-recetas-section" src="./imagenes/imgcard6.jpg" alt="">
+                <p>Donas de sabor café</p>
+            </div>
+            
+        </div>
+        <!-- <div class="recibir-notificaciones">
+            <h2 class="texto">¿Te gustaria recibir notificación de promociones?</h2>
+            <p>Dejanos tu email y nos pondremos en contacto cada vez que tengamos regalos para vos </p>
+        </div>
         </div>
 
+        <hr class="hr--small">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email </label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Ingresá tu comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div> -->
+
     </section>
+
+     <section>
+        <div class="recibir-notificaciones">
+            <h2>¿Te gustaria recibir notificación de promociones?</h2>
+            <p class="texto">Dejanos tu email y nos pondremos en contacto cada vez que tengamos regalos para vos </p>
+        </div>
+        </div>
+        
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingresá tu comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+    </section> 
+
+    <div>
+        <hr class="hr--small">
+        </div>
 
     <footer class="footer">
 
         <div class="footer-logo">
-            <a href> <img class="logo-footer" src="panaderia.png" alt=""></a>
-            <!-- <h1>Donas Argentina</h1> -->
+            <a href> <img class="logo-footer" src="./imagenes/logo.png" alt=""></a>
+            
         </div>
 
         <div class="social-footer">
@@ -191,14 +244,13 @@
             <a href>
                 <i class="bi bi-instagram"></i>
             </a>
-            <a href>
+            <!-- <a href>
                 <i class="bi bi-whatsapp"></i>
-            </a>
+            </a> -->
 
             <a href>
                 <i class="bi bi-twitter"></i>
             </a>
-        </div>
 
     </footer>
 

@@ -4,7 +4,9 @@
   padding: 0; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  padding: 0;
+  background-color: #faf5ee; }
 
 /* CSS */
 .button-48 {
@@ -15,7 +17,7 @@ body {
   color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: Clarkson,Helvetica,sans-serif;
+  font-family: Clarkson, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0;
@@ -64,10 +66,11 @@ body {
 /* carrusel */
 /* texto-medio */
 /* texto-medio */
-.texto p {
-  font-family: 'Signika Negative', sans-serif;
+.texto {
+  font-family: var(-tipografia_cuerpo);
   font-size: 30px;
-  font-weight: 600; }
+  text-align: center;
+  padding: 40px; }
 
 .texto {
   text-align: center;
@@ -75,7 +78,34 @@ body {
 
 .texto-centro {
   font-family: var(--tipografia_titulos);
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: #8cc694; }
+
+.btn {
+  color: #000; }
+
+.hr--small {
+  margin: 20px auto; }
+
+hr,
+.h--small {
+  border-width: 1px 0 0 0;
+  width: 100px; }
+
+hr {
+  clear: both;
+  border-top: solid #d6b582;
+  border-width: 2px 0 0;
+  margin: 30px 0;
+  height: 0; }
+
+.recibir-notificaciones {
+  text-align: center;
+  margin-top: 100px;
+  font-family: var(-tipografia_cuerpo); }
+
+p {
+  font-family: var(-tipografia_cuerpo); }
 
 .btn {
   font-size: 30px;
@@ -90,14 +120,16 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
 
-h2 {
-  font-family: var(--tipografia_cards); }
+.titulo_tarjetauno {
+  font-family: var(--tipografia_titulos);
+  color: #76BA99;
+  font-size: 30px; }
 
 .receta-card {
   margin: 15px;
   width: 25%;
   font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: var(--tipografia_cuerpo);
   text-align: center;
   background-color: #ffff;
   border-radius: 15px;
@@ -111,10 +143,6 @@ h2 {
 .img-recetas-section {
   max-width: 100%; }
 
-.recetas-section h3 {
-  padding: 34px;
-  text-align: center; }
-
 .recetas-section a {
   font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
@@ -126,14 +154,17 @@ h2 {
 .recetas-section a:hover {
   letter-spacing: 2px; }
 
+.input-group {
+  padding: 30px;
+  margin-top: 100px; }
+
 /* FOOTER */
 /* FOOTER */
 /* FOOTER */
 .footer {
   text-align: center;
   display: flex;
-  flex-direction: column;
-  padding: 60px; }
+  flex-direction: column; }
   .footer-logo {
     justify-content: center; }
 
@@ -156,11 +187,6 @@ h2 {
     font-size: 20px;
     letter-spacing: 2px; }
 
-.footer-agregado {
-  height: 50px;
-  padding: 10px 0;
-  /* background-color: #FFB562; */ }
-
 .header {
   display: flex;
   justify-content: space-around;
@@ -168,13 +194,12 @@ h2 {
   .header-logo h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-weight: 300;
     font-size: 16px; }
   .header-contact a {
     text-decoration: none;
     letter-spacing: 3px;
     text-transform: uppercase;
-    transition: color 0.25s; }
+    background-color: #faf5ee; }
   .header-contact a:hover {
     color: #000; }
   .header-logo {
@@ -199,8 +224,8 @@ h2 {
   color: #1ebea5; }
 
 .logo {
-  width: 50%;
-  background-color: #E8E8E8; }
+  width: 70%;
+  background-color: #faf5ee; }
 
 .nav ul {
   display: flex;
@@ -211,7 +236,8 @@ h2 {
     letter-spacing: 3px;
     text-transform: uppercase;
     transition: color 0.25s;
-    color: black; }
+    color: black;
+    background-color: #faf5ee; }
 
 .nav {
   justify-content: center; }
@@ -228,9 +254,11 @@ a {
   padding-top: 50px; }
   .donas-indispensables p {
     margin: 30px 80px;
-    font-family: var(--tipografia_cards); }
-  .donas-indispensables h2 {
-    font-family: var(--tipografia_cards); }
+    font-size: 30px;
+    font-family: var(--tipografia_cuerpo); }
+  .donas-indispensables .titulo_tarjetados {
+    font-family: var(--tipografia_titulos);
+    color: var(--color_tarjetas_titulos); }
 
 .galeria-card {
   display: flex;
@@ -265,29 +293,62 @@ a {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; }
 
+.contactarnos {
+  text-align: center; }
+
+.contactarnos_productos {
+  margin-top: 50px;
+  font-family: var(--tipografia_titulos); }
+
+.texto {
+  font-family: var(-tipografia_cuerpo); }
+
 /* SUCURSALES */
 /* SUCURSALES */
 /* SUCURSALES */
+* {
+  margin: 0;
+  padding: 0; }
+
 .sucursales {
+  padding: 1rem; }
+
+h1 {
+  text-align: center; }
+
+.sucursales h2 {
+  text-align: center;
+  margin: 1rem; }
+
+.sucursales-container {
   display: flex;
   justify-content: space-around;
-  background-color: #ac9595;
-  height: 900spx;
   align-items: center;
-  background-image: url(../imagenes/img10.jpg); }
+  margin-bottom: 2rem;
+  background-color: var(--color_tarjetas);
+  height: 700px; }
 
-.sucursales_Palermo_Belgrano, .palermo, .belgrano {
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 30px;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  color: #e7773c; }
+.sucursal-title {
+  font-family: var(--tipografia_titulos);
+  text-align: center;
+  margin: 1rem;
+  color: #76BA99;
+  background: #0e0e0e;
+  box-shadow: 5px 5px 0px 0px #8a8a8a; }
 
-.palermo {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+.hr--small--sucursales {
+  margin: 30px auto; }
 
-.belgrano {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+hr, .h--small--sucursales {
+  border-width: 1px 0 0 0;
+  width: 200px; }
+
+hr {
+  clear: both;
+  border-top: solid #d6b582;
+  border-width: 2px 0 0;
+  margin: 30px 0;
+  height: 0; }
 
 @media screen and (max-width: 760px) {
   .header {
@@ -295,6 +356,8 @@ a {
   .header-logo {
     margin-bottom: 15px;
     width: 100%; }
+  .logo-footer {
+    width: 40%; }
   .header-contact {
     display: none; }
   .social-media {
@@ -316,16 +379,22 @@ a {
     margin-left: 10px; }
   /* sucursales */
   /* sucursales */
-  /* sucursales */
-  .sucursales {
+  .sucursales-container {
+    display: flex;
+    justify-content: space-around;
     flex-direction: column;
-    height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px; } }
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 30px; }
+  p {
+    align-items: center; } }
 
 /* FORMULARIO, contacto*/
 .formulario {
-  background-image: url(../imagenes/img4.jpg);
+  height: 800px; }
+
+.formulario {
+  background-image: url(../imagenes/imgcontacto.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
@@ -342,7 +411,7 @@ form {
   border-radius: 7px; }
 
 h2 {
-  color: #fff;
+  color: #8cc694;
   text-align: center;
   font-size: 30px;
   margin-bottom: 20px; }
@@ -367,9 +436,21 @@ textarea {
 
 .boton:hover {
   cursor: pointer;
-  color: #f5d33a; }
+  color: #8cc694; }
+
+.container-fluid {
+  background-color: var(--color_tarjetas) !important; }
+
+h1 {
+  font-family: var(--tipografia_titulos); }
+
+.text-start {
+  font-family: var(--tipografia_cuerpo);
+  font-size: 30px; }
 
 :root {
-  --color_tarjetas: #f5c25e;
-  --tipografia_titulos:'Patrick Hand', cursive;
+  --color_tarjetas: #e2daee;
+  --tipografia_cuerpo: 'Roboto', sans-serif;
+  --color_tarjetas_titulos: #76BA99;
+  --tipografia_titulos:'Spinnaker', sans-serif;
   --tipografia_cards:'Lemonada', cursive; }
