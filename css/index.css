@@ -88,7 +88,7 @@ body {
 /* texto-medio */
 /* texto-medio */
 .texto {
-  font-family: var(-tipografia_cuerpo);
+  font-family: var(--tipografia_cuerpo);
   font-size: 30px;
   text-align: center;
   padding: 40px; }
@@ -438,7 +438,6 @@ input, textarea {
   color: #fff;
   background-color: transparent;
   border: 2px solid #1abc9c;
-  box-shadow: inset 0 1px 5px #1abc9c;
   width: 100%;
   padding: 15px;
   font-size: 18px;
