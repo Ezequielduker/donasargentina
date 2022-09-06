@@ -5,18 +5,20 @@
     text-align: center;
     background-color: var(--color_tarjetas);
     padding-top: 50px;
-
-    p {
-        margin: 30px 80px;
-        font-size: 30px;
-        font-family: var(--tipografia_cuerpo);
-    }
-
-    .titulo_tarjetados {
-        font-family: var(--tipografia_titulos);
-        color: var(--color_tarjetas_titulos);
-    }
 }
+
+.title_tarjetados {
+    font-family: var(--tipografia_titulos);
+    color: var(--color_tarjetas_titulos);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.texto_productos {
+    font-family: var(--tipografia_cuerpo);
+    font-size: 30px;
+    // font-weight: 200;
+   }
 
 
 .galeria-card {
@@ -60,15 +62,28 @@
     transition: .3s ease-in-out;
 }
 
-.contactarnos {
+// contenedor productos contactarnos
+
+.contactarnos_productos {
+    text-align: center;
+    margin-top: 50px;
+}
+// titulo productos
+
+.title_productos {
+    font-family: var(--tipografia_titulos);
+    margin-bottom: 20px;
+    color: var(--color_tarjetas_titulos);
+    font-size: 40px;
+    text-align: center;
+}
+// texto P
+
+.texto_productos {
+    
+    font-family: var(--tipografia_cuerpo);
+    font-size: 30px;
+    font-weight: 200;
     text-align: center;
 }
 
-.contactarnos_productos {
-    margin-top: 50px;
-    font-family: var(--tipografia_titulos);
-}
-
-.texto {
-    font-family: var(-tipografia_cuerpo)
-}
