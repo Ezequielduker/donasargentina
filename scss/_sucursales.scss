@@ -126,4 +126,23 @@ hr {
         align-items: center;
     }
 
+    // formulario
+    .formulario {
+        padding: 0 30px;
+        display: flex;
+    }
+
+    // formulario home
+
+    .formulario_home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10px;
+    }
+
+    .mb-3 {
+        padding: 0 30px;
+    }
+
    }
