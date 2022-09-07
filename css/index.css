@@ -107,23 +107,13 @@ body {
   color: #000; }
 
 .hr--small {
-  margin: 20px auto; }
-
-hr,
-.h--small {
+  margin: 20px auto;
   border-width: 1px 0 0 0;
-  width: 100px; }
-
-hr {
-  clear: both;
-  border-top: solid #d6b582;
-  border-width: 2px 0 0;
-  margin: 30px 0;
-  height: 0; }
+  width: 100px;
+  clear: both; }
 
 .title_notificaciones {
-  text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
   font-size: 40px;
   color: var(--color_tarjetas_titulos);
   font-family: var(--tipografia_titulos); }
@@ -131,8 +121,14 @@ hr {
 .texto_notificaciones {
   font-family: var(--tipografia_cuerpo);
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 600; }
+
+.formulario_home {
+  padding: 0 300px;
   text-align: center; }
+
+.mb-3 {
+  padding: 5px 300px; }
 
 .btn {
   font-size: 30px;
@@ -412,13 +408,6 @@ hr {
   .menu {
     padding: 15px;
     margin-left: 10px; }
-
-    /* formulario home */
-    .formulario_home {
-      flex-direction: column;
-      padding: 0 10px;
-      text-align: center;
-    }
   /* sucursales */
   /* sucursales */
   .sucursales-container {
@@ -429,22 +418,7 @@ hr {
     margin-bottom: 2rem;
     padding: 0 30px; }
   p {
-    align-items: center; }
-   
-
-    /* formulario */
-    .formulario {
-      display: flex;
-      padding: 0 30px;
-    }
-    /* productos */
-    .contactarnos_productos {
-      flex-direction: column;
-      padding: 0 20px;
-      text-align: center;
-    }
-  
-  }
+    align-items: center; } }
 
 /* FORMULARIO, contacto*/
 * {
