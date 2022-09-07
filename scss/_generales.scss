@@ -178,6 +178,29 @@ body {
     padding: 5px 300px;
 }
 
+// boton enviar home
+.button {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    font-family: var(--tipografia_cuerpo);
+    background:  var(--color_tarjetas_titulos);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.button:hover {
+     
+        text-decoration: none;
+        // color: #25d366;
+        background: #8cc0a7;
+    
+}
+
 
 // tamanio_font espera diferentes tamaños  de letras para el boton
 // tamanio: espera un tamaño del boton: posibles valores : sm, md

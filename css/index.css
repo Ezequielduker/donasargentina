@@ -130,6 +130,23 @@ body {
 .mb-3 {
   padding: 5px 300px; }
 
+.button {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  font-family: var(--tipografia_cuerpo);
+  background: var(--color_tarjetas_titulos);
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase; }
+
+.button:hover {
+  text-decoration: none;
+  background: #8cc0a7; }
+
 .btn {
   font-size: 30px;
   text-transform: uppercase; }
@@ -370,7 +387,8 @@ h1 {
 .hr--small--sucursales {
   margin: 30px auto; }
 
-hr, .h--small--sucursales {
+hr,
+.h--small--sucursales {
   border-width: 1px 0 0 0;
   width: 200px; }
 
@@ -428,7 +446,20 @@ hr {
     text-align: center;
     padding: 0 10px; }
   .mb-3 {
-    padding: 0 30px; } }
+    padding: 0 30px; }
+  .boton_enviar {
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+  .button {
+    width: 150px;
+    height: 40px;
+    font-size: 25px; }
+  .contactarnos_productos {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    padding: 0 20px; } }
 
 /* FORMULARIO, contacto*/
 * {
