@@ -86,7 +86,6 @@ body {
 
 /* carrusel */
 /* texto-medio */
-/* texto-medio */
 .texto {
   text-align: center;
   padding: 40px; }
@@ -185,7 +184,6 @@ hr {
   padding: 30px;
   margin-top: 100px; }
 
-/* FOOTER */
 /* FOOTER */
 /* FOOTER */
 .footer {
@@ -414,6 +412,13 @@ hr {
   .menu {
     padding: 15px;
     margin-left: 10px; }
+
+    /* formulario home */
+    .formulario_home {
+      flex-direction: column;
+      padding: 0 10px;
+      text-align: center;
+    }
   /* sucursales */
   /* sucursales */
   .sucursales-container {
@@ -424,7 +429,22 @@ hr {
     margin-bottom: 2rem;
     padding: 0 30px; }
   p {
-    align-items: center; } }
+    align-items: center; }
+   
+
+    /* formulario */
+    .formulario {
+      display: flex;
+      padding: 0 30px;
+    }
+    /* productos */
+    .contactarnos_productos {
+      flex-direction: column;
+      padding: 0 20px;
+      text-align: center;
+    }
+  
+  }
 
 /* FORMULARIO, contacto*/
 * {
