@@ -7,10 +7,8 @@
     &-logo h1 {
         text-transform: uppercase;
         letter-spacing: 4px;
-        // font-weight: 300;
         font-size: 16px;
-
-
+        align-items: center;
     }
 
     &-contact a {
@@ -27,7 +25,6 @@
     &-logo {
         width: 25%;
         text-align: center;
-
     }
 
 }

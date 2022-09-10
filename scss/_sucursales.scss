@@ -2,9 +2,7 @@
 /* SUCURSALES */
 /* SUCURSALES */
 
-// body{
-//     background: #eeede7;
-// }
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +19,6 @@ h1 {
 .sucursales h2 {
     text-align: center;
     margin: 1rem;
-    // font-size: ;
 }
 
 .sucursales-container {
@@ -40,7 +37,6 @@ h1 {
     color: #76BA99;
     background: #0e0e0e;
     box-shadow: 5px 5px 0px 0px rgb(138, 138, 138);
-
 }
 
 // Hr
@@ -61,7 +57,9 @@ hr {
     margin: 30px 0;
     height: 0;
 }
-
+// La Media Query esta adaptada para telefonos moviles. En la sección "responsive"
+// de google chrome sugiero elegír cualquier tamanio de celular para apreciar como
+// se adapta el estilo.
 
 @media screen and (max-width:760px) {
     .header {
@@ -123,7 +121,6 @@ hr {
         align-items: center;
         margin-bottom: 2rem;
         padding: 0 30px;
-
     }
 
     p {
@@ -170,7 +167,6 @@ hr {
         display: flex;
         text-align: center;
         padding: 0 20px;
-
     }
 
 }

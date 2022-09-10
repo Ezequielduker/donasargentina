@@ -10,14 +10,15 @@
   color: #fff;
   border-radius: 50px;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   z-index: 100; }
 
 .float-wsp:hover {
   text-decoration: none;
-  color: #25d366;
-  background: #fff; }
+  color: #000000;
+  background: #fff;
+  text-align: center; }
 
 * {
   margin: 0;
@@ -84,7 +85,6 @@ body {
   z-index: 1;
   position: relative; }
 
-/* carrusel */
 /* texto-medio */
 .texto {
   text-align: center;
@@ -232,7 +232,8 @@ body {
   .header-logo h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 16px; }
+    font-size: 16px;
+    align-items: center; }
   .header-contact a {
     text-decoration: none;
     letter-spacing: 3px;
@@ -294,12 +295,12 @@ a {
 .title_tarjetados {
   font-family: var(--tipografia_titulos);
   color: var(--color_tarjetas_titulos);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500; }
 
 .texto_productos {
   font-family: var(--tipografia_cuerpo);
-  font-size: 30px; }
+  font-size: 25px; }
 
 .galeria-card {
   display: flex;
@@ -348,7 +349,6 @@ a {
 .texto_productos {
   font-family: var(--tipografia_cuerpo);
   font-size: 30px;
-  font-weight: 200;
   text-align: center; }
 
 /* SUCURSALES */

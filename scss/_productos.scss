@@ -10,16 +10,15 @@
 .title_tarjetados {
     font-family: var(--tipografia_titulos);
     color: var(--color_tarjetas_titulos);
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
 }
 
 .texto_productos {
     font-family: var(--tipografia_cuerpo);
-    font-size: 30px;
+    font-size: 25px;
     // font-weight: 200;
-   }
-
+}
 
 .galeria-card {
     display: flex;
@@ -68,6 +67,7 @@
     text-align: center;
     margin-top: 50px;
 }
+
 // titulo productos
 
 .title_productos {
@@ -77,13 +77,12 @@
     font-size: 40px;
     text-align: center;
 }
+
 // texto P
 
 .texto_productos {
-    
+
     font-family: var(--tipografia_cuerpo);
     font-size: 30px;
-    font-weight: 200;
     text-align: center;
 }
-

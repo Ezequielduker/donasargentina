@@ -13,18 +13,17 @@
     color: #fff;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     z-index: 100;
 }
 
 .float-wsp:hover {
     text-decoration: none;
-    color: #25d366;
+    color: #000000;
     background: #fff;
+    text-align: center;
 }
-
-
 
 // sucursales
 * {
@@ -100,14 +99,6 @@ body {
     position: relative;
 }
 
-/* carrusel */
-
-// .carousel-inner {
-
-//     height: 900px;
-//     // padding: 30px 20px;
-// }
-
 /* texto-medio */
 
 // textomediocontenedor
@@ -134,7 +125,6 @@ body {
     color: var(--color_tarjetas_titulos);
     font-size: 40px;
     text-align: center;
-
 }
 
 // boton contactanos
@@ -171,7 +161,6 @@ body {
 .formulario_home {
     padding: 0 300px;
     text-align: center;
-
 }
 
 .mb-3 {
@@ -186,7 +175,7 @@ body {
     border-radius: 5px;
     color: white;
     font-family: var(--tipografia_cuerpo);
-    background:  var(--color_tarjetas_titulos);
+    background: var(--color_tarjetas_titulos);
     font-size: 25px;
     font-weight: 700;
     font-style: normal;
@@ -194,13 +183,11 @@ body {
 }
 
 .button:hover {
-     
-        text-decoration: none;
-        // color: #25d366;
-        background: #8cc0a7;
-    
-}
 
+    text-decoration: none;
+    // color: #25d366;
+    background: #8cc0a7;
+}
 
 // tamanio_font espera diferentes tamaños  de letras para el boton
 // tamanio: espera un tamaño del boton: posibles valores : sm, md
@@ -286,12 +273,10 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    // padding: 60px;
-
+    
     &-logo {
         justify-content: center;
     }
-
 }
 
 .logo-footer {
@@ -321,3 +306,4 @@ body {
         letter-spacing: 2px;
     }
 }
+
