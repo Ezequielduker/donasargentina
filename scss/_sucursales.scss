@@ -139,11 +139,13 @@ hr {
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 0 10px;
+        padding: 0 5px;
+        margin: auto;
     }
 
     .mb-3 {
-        padding: 0 30px;
+        padding: 0 5px;
+        width: 100%;
     }
 
     // boton enviar
@@ -170,3 +172,22 @@ hr {
     }
 
 }
+
+// @media screen and (min-width:760px) {
+
+//         // formulario home
+
+//     .formulario_home {
+//         display: flex;
+//         flex-direction: column;
+//         text-align: center;
+//         width: 500%px;
+//     }
+
+//     .mb-3 {
+//         display: flex;
+//         text-align: center;
+//     }
+
+
+// }
